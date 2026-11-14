@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments and secrets ----
+.venv/
+venv/
+env/
+.env
+*.key
+
+# ---- Not in the repository: data, weights, outputs (see DATA.md) ----
+# Anchored to the root so that evals/*/results/ stays tracked.
+/data/
+/models/
+/results/
+/logs/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.npy
+*.npz
+*.h5
+*.pkl
+*.parquet
+*.arrow
+
+# ---- Dataset-derived files: text from BeaverTails and Anthropic HH (see DATA.md) ----
+coherence_pilot/hh_helpful_test.json
+coherence_pilot/prompts.json
+sw_program/prompts.json
+s15_susceptibility/splits.json
+
+# ---- Local tool state and OS files ----
+.claude/
+.obsidian/
+.DS_Store
+Thumbs.db

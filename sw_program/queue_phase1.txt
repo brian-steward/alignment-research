@@ -1,0 +1,22 @@
+# Phase 1, seed 42. Seeds 137 and 256 are added only after the gate in the plan (G1-G6) is passed.
+sparse10 42
+uniform 42
+filtered 42
+standard 42
+posonly 42
+# Seeds 137 and 256, added 2026-11-13 after the seed-42 gate passed (results/sw_program/verdict_gate.md): every arm continues.
+# Order within a seed: the three arms the gate made most informative first (Sparse@10%, Filtered, Positives-only).
+sparse10 137
+filtered 137
+posonly 137
+# 2026-11-14: accumulation fix (NOTES item 30). sparse10 seeds 42 and 137 were trained with the bug and stay as a
+# record; the corrected arm is sparse10fix. Its seed-42 and seed-137 runs go first, then the rest of seed 137.
+sparse10fix 42
+sparse10fix 137
+uniform 137
+standard 137
+sparse10fix 256
+filtered 256
+posonly 256
+uniform 256
+standard 256

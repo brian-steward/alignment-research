@@ -1,0 +1,3 @@
+{"config":"arith-17","expr":"4 * 4 + 4/4"}
+{"config":"arith_concat-17","expr":"44/4 + (4+4)/4 + 4"}
+{"config":"full-17","expr":"4! - 4 - 4 + 4/4"}

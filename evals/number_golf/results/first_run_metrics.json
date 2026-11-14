@@ -1,0 +1,344 @@
+[
+  {
+    "config_name": "arith-17",
+    "protocol": "A1",
+    "n_attempts": 30,
+    "n_valid": 16,
+    "yield_rate": 0.5333333333333333,
+    "beta": 0.1422409696008451,
+    "K": 1.4581241585483713,
+    "r2": 0.4196121923606466,
+    "beta_ci": [
+      0.1422409696008451,
+      0.36311884313853765
+    ],
+    "distinct_at": {
+      "10": 2,
+      "30": 2
+    },
+    "max_complexity": 7
+  },
+  {
+    "config_name": "arith_concat-17",
+    "protocol": "A1",
+    "n_attempts": 29,
+    "n_valid": 11,
+    "yield_rate": 0.3793103448275862,
+    "beta": 0.19864929146644988,
+    "K": 1.368970721587187,
+    "r2": 0.5015992490659561,
+    "beta_ci": [
+      0.19864929146644988,
+      0.39782094531231565
+    ],
+    "distinct_at": {
+      "10": 2,
+      "30": 2
+    },
+    "max_complexity": 7
+  },
+  {
+    "config_name": "full-17",
+    "protocol": "A1",
+    "n_attempts": 30,
+    "n_valid": 28,
+    "yield_rate": 0.9333333333333333,
+    "beta": 0.16872899116892837,
+    "K": 1.2827568732171288,
+    "r2": 0.5024660367720211,
+    "beta_ci": [
+      0.08728497514816212,
+      0.5083461409553901
+    ],
+    "distinct_at": {
+      "10": 2,
+      "30": 3
+    },
+    "max_complexity": 8
+  },
+  {
+    "config_name": "arith-17",
+    "protocol": "A2",
+    "n_attempts": 20,
+    "n_valid": 1,
+    "yield_rate": 0.05,
+    "beta": NaN,
+    "K": NaN,
+    "r2": NaN,
+    "beta_ci": [
+      NaN,
+      NaN
+    ],
+    "distinct_at": {
+      "10": 1,
+      "30": 1
+    },
+    "max_complexity": 5
+  },
+  {
+    "config_name": "arith_concat-17",
+    "protocol": "A2",
+    "n_attempts": 13,
+    "n_valid": 1,
+    "yield_rate": 0.07692307692307693,
+    "beta": NaN,
+    "K": NaN,
+    "r2": NaN,
+    "beta_ci": [
+      NaN,
+      NaN
+    ],
+    "distinct_at": {
+      "10": 1,
+      "30": 1
+    },
+    "max_complexity": 5
+  },
+  {
+    "config_name": "full-17",
+    "protocol": "A2",
+    "n_attempts": 20,
+    "n_valid": 0,
+    "yield_rate": 0.0,
+    "beta": NaN,
+    "K": NaN,
+    "r2": NaN,
+    "beta_ci": [
+      NaN,
+      NaN
+    ],
+    "distinct_at": {
+      "10": 0,
+      "30": 0
+    },
+    "max_complexity": 0
+  },
+  {
+    "config_name": "arith-17",
+    "protocol": "A1",
+    "n_attempts": 30,
+    "n_valid": 30,
+    "yield_rate": 1.0,
+    "beta": 0.32144762404123767,
+    "K": 1.1552552995894583,
+    "r2": 0.8069330493755684,
+    "beta_ci": [
+      0.08224332152236392,
+      0.4443625118993919
+    ],
+    "distinct_at": {
+      "10": 3,
+      "30": 3
+    },
+    "max_complexity": 7
+  },
+  {
+    "config_name": "arith_concat-17",
+    "protocol": "A1",
+    "n_attempts": 30,
+    "n_valid": 30,
+    "yield_rate": 1.0,
+    "beta": 0.08224332152236392,
+    "K": 1.5926047711539388,
+    "r2": 0.3054603950441337,
+    "beta_ci": [
+      0.08224332152236392,
+      0.27602934172616983
+    ],
+    "distinct_at": {
+      "10": 2,
+      "30": 2
+    },
+    "max_complexity": 11
+  },
+  {
+    "config_name": "full-17",
+    "protocol": "A1",
+    "n_attempts": 30,
+    "n_valid": 30,
+    "yield_rate": 1.0,
+    "beta": 0.27602934172616983,
+    "K": 0.8759808491267327,
+    "r2": 0.6929463811099037,
+    "beta_ci": [
+      0.08224332152236392,
+      0.3262616148507233
+    ],
+    "distinct_at": {
+      "10": 2,
+      "30": 2
+    },
+    "max_complexity": 8
+  },
+  {
+    "config_name": "arith-17",
+    "protocol": "A2",
+    "n_attempts": 13,
+    "n_valid": 13,
+    "yield_rate": 1.0,
+    "beta": 0.6909291262948026,
+    "K": 1.3129526207794082,
+    "r2": 0.893366359469702,
+    "beta_ci": [
+      0.3311434329779722,
+      0.8194021555324479
+    ],
+    "distinct_at": {
+      "10": 6,
+      "30": 6
+    },
+    "max_complexity": 15
+  },
+  {
+    "config_name": "arith_concat-17",
+    "protocol": "A2",
+    "n_attempts": 12,
+    "n_valid": 12,
+    "yield_rate": 1.0,
+    "beta": 0.9114692900490812,
+    "K": 1.0789654565548956,
+    "r2": 0.991551258245618,
+    "beta_ci": [
+      0.5965244915297969,
+      0.9358703392068407
+    ],
+    "distinct_at": {
+      "10": 8,
+      "30": 10
+    },
+    "max_complexity": 17
+  },
+  {
+    "config_name": "full-17",
+    "protocol": "A2",
+    "n_attempts": 16,
+    "n_valid": 16,
+    "yield_rate": 1.0,
+    "beta": 0.9462930141727465,
+    "K": 1.0519970611608291,
+    "r2": 0.9974739983916355,
+    "beta_ci": [
+      0.672617593557982,
+      0.9232959022094042
+    ],
+    "distinct_at": {
+      "10": 9,
+      "30": 14
+    },
+    "max_complexity": 16
+  },
+  {
+    "config_name": "arith-17",
+    "protocol": "A1",
+    "n_attempts": 30,
+    "n_valid": 30,
+    "yield_rate": 1.0,
+    "beta": 0.0,
+    "K": 1.0,
+    "r2": 1.0,
+    "beta_ci": [
+      0.0,
+      0.0
+    ],
+    "distinct_at": {
+      "10": 1,
+      "30": 1
+    },
+    "max_complexity": 7
+  },
+  {
+    "config_name": "arith_concat-17",
+    "protocol": "A1",
+    "n_attempts": 30,
+    "n_valid": 15,
+    "yield_rate": 0.5,
+    "beta": 0.0,
+    "K": 1.0,
+    "r2": 1.0,
+    "beta_ci": [
+      0.0,
+      0.0
+    ],
+    "distinct_at": {
+      "10": 1,
+      "30": 1
+    },
+    "max_complexity": 7
+  },
+  {
+    "config_name": "full-17",
+    "protocol": "A1",
+    "n_attempts": 30,
+    "n_valid": 0,
+    "yield_rate": 0.0,
+    "beta": NaN,
+    "K": NaN,
+    "r2": NaN,
+    "beta_ci": [
+      NaN,
+      NaN
+    ],
+    "distinct_at": {
+      "10": 0,
+      "30": 0
+    },
+    "max_complexity": 0
+  },
+  {
+    "config_name": "arith-17",
+    "protocol": "A2",
+    "n_attempts": 11,
+    "n_valid": 11,
+    "yield_rate": 1.0,
+    "beta": 0.7040570761795802,
+    "K": 1.2037492355700834,
+    "r2": 0.9517001478175241,
+    "beta_ci": [
+      0.3802276455855794,
+      0.8130568773518398
+    ],
+    "distinct_at": {
+      "10": 6,
+      "30": 6
+    },
+    "max_complexity": 15
+  },
+  {
+    "config_name": "arith_concat-17",
+    "protocol": "A2",
+    "n_attempts": 10,
+    "n_valid": 10,
+    "yield_rate": 1.0,
+    "beta": 0.70959467255755,
+    "K": 1.1741969870937214,
+    "r2": 0.9438458942653785,
+    "beta_ci": [
+      0.4116642231410075,
+      0.8423995991111356
+    ],
+    "distinct_at": {
+      "10": 5,
+      "30": 5
+    },
+    "max_complexity": 17
+  },
+  {
+    "config_name": "full-17",
+    "protocol": "A2",
+    "n_attempts": 15,
+    "n_valid": 15,
+    "yield_rate": 1.0,
+    "beta": 0.6927468568859064,
+    "K": 0.9979490995145778,
+    "r2": 0.9201057386390178,
+    "beta_ci": [
+      0.42583344166707987,
+      0.7973474379362048
+    ],
+    "distinct_at": {
+      "10": 5,
+      "30": 7
+    },
+    "max_complexity": 15
+  }
+]
